@@ -1,0 +1,62 @@
+body{
+    background-color: blueviolet;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.collection{
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:2vmin;
+    padding: 10px;
+}
+.box{
+    height:18vmin;
+    width: 18vmin;
+    background-color: rgba(198, 188, 188, 0.8);
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vmin;
+    color: rgb(52, 21, 145);
+}
+
+.message{
+    height: 8vmin;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    color: aliceblue;
+}
+
+#reset{
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+    font-size: 3vmin;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
+}
+
